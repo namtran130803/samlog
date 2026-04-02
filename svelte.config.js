@@ -22,6 +22,9 @@ const config = {
 		}),
 		alias: {
 			$: resolve('./src')
+		},
+		output: {
+			bundleStrategy: 'inline'
 		}
 	}
 };
